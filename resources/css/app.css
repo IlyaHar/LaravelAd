@@ -1,0 +1,14 @@
+.advertisements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
