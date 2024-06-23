@@ -48,7 +48,5 @@ git clone git@github.com:IlyaHar/LaravelAd.git
 ``` bash
  npm run dev
 ```
-``` bash
- php artisan serve
-```
+
 # Have a great time!
