@@ -8,11 +8,11 @@ git clone git@github.com:IlyaHar/LaravelAd.git
 
 ## Settings
 
-4. Copy all from .env.example, create .env and paste it there. Then configure database, Google API and GitHub API for oAuth2
+2. **Copy all from .env.example, create .env and paste it there. Then configure database, Google API and GitHub API for oAuth2**
 ``` bash
  composer install
 ```
-2. Open Docker, run the container and come in container
+3. Open Docker, run the container and come in container
 
 ``` bash
  vendor/bin/sail up -d
@@ -25,7 +25,7 @@ git clone git@github.com:IlyaHar/LaravelAd.git
  docker exec -it container_id /bin/bash
 ```
 
-3. Install Composer and Npm
+4. Install Composer and Npm
 ``` bash
  composer install
 ```
