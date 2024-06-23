@@ -15,7 +15,7 @@ git clone git@github.com:IlyaHar/LaravelAd.git
 2. Open Docker, run the container and come in container
 
 ``` bash
- sail up -d
+ vendor/bin/sail up -d
 ```
 **Copy container_id from *docker ps***
 ``` bash
