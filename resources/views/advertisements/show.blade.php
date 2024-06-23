@@ -17,7 +17,6 @@
         <h3 class="mt-3">{{ $advertisement->title }}</h3>
         <p><strong>{{ $advertisement->created_at }}</strong></p>
         <span>Author: </span><strong><span>{{ $advertisement->user->name }}</span></strong><br>
-        <strong><span>{{ $advertisement->user->email }}</span></strong><br>
         <div class="mt-5">
             <form action="{{ route('advertisements.destroy', $advertisement->id) }}" method="POST">
                 @method('DELETE')

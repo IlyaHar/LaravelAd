@@ -20,9 +20,9 @@ class AdvertisementFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => fake()->title,
+            'title' => fake()->word,
             'description' => fake()->sentences(20, 10),
-            'image' => 'noAd.jpg',
+            'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtG7ujCdSdRXNLjRFMMSwwsWMQmt73fTMghg&s',
             'author_id' => User::factory()
         ];
     }
